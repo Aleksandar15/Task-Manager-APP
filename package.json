@@ -1,12 +1,12 @@
 {
-  "name": "task-app",
+  "name": "task-manager",
   "version": "1.0.0",
-  "description": "",
+  "description": "Task Manager APP by Aleksandar15",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
-    "test": "env-cmd -f ./config/test.env jest --watch --runInBand"
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js",
+    "test": "env-cmd ./config/test.env jest --watch --runInBand"
   },
   "jest": {
     "testEnvironment": "node"
@@ -26,7 +26,7 @@
     "mongoose": "^5.6.6",
     "multer": "^1.4.2",
     "path": "^0.12.7",
-    "sharp": "^0.22.1",
+    "sharp": "^0.29.3",
     "validator": "^11.1.0"
   },
   "devDependencies": {
