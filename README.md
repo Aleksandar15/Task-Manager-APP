@@ -6,6 +6,11 @@ This is a task-manager app. Create a user account and start writing notes of wha
 
 ### See my live app in action [here](https://task-manager-app-alek.onrender.com).
 
+##### Test login user:
+
+- e-mail: test@test.com
+- Password: testtest
+
 ## Features
 
 - Create a user account.
