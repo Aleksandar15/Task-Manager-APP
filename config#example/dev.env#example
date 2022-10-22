@@ -1,0 +1,3 @@
+JWT_SECRET=jwtSecretHere
+MONGODB_URL=mongodb+srv://taskappalek:passwordHere@cluster0.randomNameHere.mongodb.net/TaskAppDatabase-api?retryWrites=true
+SENDGRID_API_KEY=SG.randomCharsBySendgrid.moreRandomCharsBySendgrid
