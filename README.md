@@ -4,7 +4,7 @@
 
 This is a task-manager app. Create a user account and start writing notes of what you have to get done and set them as completed once done.
 
-See my project in action [here](https://task-manager-aleksandar15.herokuapp.com/).
+### See my live app in action [here](https://task-manager-app-alek.onrender.com).
 
 ## Features
 
@@ -27,6 +27,7 @@ See my project in action [here](https://task-manager-aleksandar15.herokuapp.com/
 - Visit http://localhost:3000 in your browser!
 
 ## Tech stack
+
 - Node.js
 - Express.js
 - MongoDB
