@@ -2,7 +2,7 @@
 
 ## Overview
 
-A task-manager APP with user Authentication. Users can create an account and start writing notes of things a user has to do.
+A task-manager APP with user Authentication which is a backend-focused project. Users can create an account and start writing notes of things a user has to do.
 - They can mark the notes as completed.
 Using EJS (Embedded JavaScript) with Node.js which is a templating language that allowed me to generate HTML markup with plain JavaScript, I created templates that contain placeholders for rendering dynamic content -> Hence why my Task-manager app, deployed on Render.com, runs server-side and EJS renders the frontend (client-side).
 - For the MongoDB the database is hosted on MongoDB Atlas and I'm using the "MONGODB_URL" from my environment to connect to it -> which is a great alternative to hosting a "containerized instance" of MongoDB on Render.com. (<a href="https://render.com/docs/connect-to-mongodb-atlas">more info on Render</a>)
