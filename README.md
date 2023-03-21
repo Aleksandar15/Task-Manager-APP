@@ -2,7 +2,14 @@
 
 ## Overview
 
-This is a task-manager app. Create a user account and start writing notes of what you have to get done and set them as completed once done.
+A task-manager APP with user Authentication. Users can create an account and start writing notes of things a user has to do.
+- They can mark the notes as completed.
+Using EJS (Embedded JavaScript) with Node.js which is a templating language that allowed me to generate HTML markup with plain JavaScript, I created templates that contain placeholders for rendering dynamic content -> Hence why my Task-manager app, deployed on Render.com, runs server-side and EJS renders the frontend (client-side).
+- For the MongoDB the database is hosted on MongoDB Atlas and I'm using the "MONGODB_URL" from my environment to connect to it -> which is a great alternative to hosting a "containerized instance" of MongoDB on Render.com. (<a href="https://render.com/docs/connect-to-mongodb-atlas">more info on Render</a>)
+- SendGrid API is used for sending 'welcome email' to users that create new accounts.
+- Extra features:
+The "/me" route of "Account" section allows the user to "*change password*" or "*delete account*".
+
 
 ### See my live app in action [here](https://task-manager-app-alek.onrender.com).
 
